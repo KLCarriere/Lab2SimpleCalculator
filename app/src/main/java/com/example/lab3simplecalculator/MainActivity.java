@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         if (pressID == R.id.buttonDot) {
             if (!hasDot) { curText.setText(curText.getText() + "."); hasDot = true; }
             else { curText.setText("ERROR"); } // not sure why this case is included if you
-            // want to add together two floating point numbers... can it not compute?
+            // want to add together two floating point numbers... can it not compute? --> there are a couple
+            // of things that need to be fixed to make that work, but I haven't been asked to do that lol
         }
 
     }
